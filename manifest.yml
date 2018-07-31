@@ -1,0 +1,23 @@
+---
+declared-services:
+  Watson-Assistant-Evan-Quantum-Computing-Chatbot:
+    label: conversation
+    plan: standard
+  Discovery-Quantum-Chatbot:
+    label: discovery
+    plan: standard
+  Natural_Language_Understanding_Quantum_Chatbot:
+    label: natural-language-understanding
+    plan: free
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  name: watsonchatbot_test 
+  disk_quota: 256M
+  random-route: false
+  timeout: 180
+  services:
+  - Watson-Assistant-Evan-Quantum-Computing-Chatbot
+  - Discovery-Quantum-Chatbot
+  - Natural_Language_Understanding_Quantum_Chatbot

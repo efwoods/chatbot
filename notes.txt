@@ -1,0 +1,27 @@
+'What is control theory?' Presents a blank answer.
+'What is a quantum bit?' Presents a short answer.
+
+7/27/2018------ below------- 
+How to add an img
+<img src=https://thumbs.gfycat.com/ConventionalSleepyKomododragon-size_restricted.gif style=text-align:center>
+
+or 
+
+<img src=http://i.imgur.com/5CK5Rf4.gif>
+
+How to add a button press....
+
+<input class="btn-primary" onclick="sendButtonRequest('Hello')" value="Press to Say Hello" type="submit">
+
+How to add a hyperlink....
+
+<a href="https://www.google.com">This is a hyperlink </a>
+
+How to add a selection box...
+<select name="fruit"> <option value ="none">Nothing</option> <option value ="guava">Guava</option> <option value ="lychee">Lychee</option> <option value ="papaya">Papaya</option> </select>
+
+
+#notes 
+focus on superconducting 
+
+

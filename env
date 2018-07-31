@@ -1,0 +1,27 @@
+# Copy this file to .env and replace the credentials with 
+# your own before starting the app.
+
+# Watson Assistant
+WORKSPACE_ID=1322d9c0-6dc2-4938-acbb-1f3bbb6aacda
+ASSISTANT_URL=https://gateway.watsonplatform.net/assistant/api
+## Un-comment and use either username+password or IAM apikey.
+ASSISTANT_USERNAME=fafa8edb-1fac-478e-a829-139e00104c14
+ASSISTANT_PASSWORD=7x4x6gfPro0b
+# ASSISTANT_IAM_APIKEY=<add_assistant_apikey>
+
+# Watson Discovery
+DISCOVERY_USERNAME=96fb482b-5536-4c86-883a-f317260ed77b
+DISCOVERY_PASSWORD=qYcIYWgIBfFT
+DISCOVERY_ENVIRONMENT_ID=d597b7e4-3b37-4886-b950-cb1271dc4d96
+DISCOVERY_COLLECTION_ID=68870f75-195a-4695-96d3-537951f77a92
+
+# Watson Natural Language Understanding
+NATURAL_LANGUAGE_UNDERSTANDING_USERNAME=7ae03c60-2051-4791-8101-6eb210211544
+NATURAL_LANGUAGE_UNDERSTANDING_PASSWORD=8pOlN7GvP45H
+
+# Watson Tone Analyzer
+TONE_ANALYZER_USERNAME=4224cc58-30f1-4f38-89a7-f117a65cbfd6
+TONE_ANALYZER_PASSWORD=g8rWvW0LznwA
+
+# Run locally on a non-default port (default is 3000)
+PORT=4000
